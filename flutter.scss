@@ -16,7 +16,7 @@ html {
   font-size: clamp(14px, 1vmax, 18px);
 }
 
-section,nav{
+section,nav,footer{
   max-width: 2000px;
   justify-self: center;
 }
@@ -411,6 +411,7 @@ main {
     }
 
     footer{
+      width: 100%;
       background-color: #F8F9FA;
       padding: 3rem;
       display: flex;
